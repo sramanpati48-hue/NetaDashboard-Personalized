@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" preserveAspectRatio="xMaxYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fdf7ef"/>
+      <stop offset="0.45" stop-color="#fbe7cf"/>
+      <stop offset="0.78" stop-color="#f7cfa4"/>
+      <stop offset="1" stop-color="#f3c197"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="700" cy="214" r="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff4dc" stop-opacity="1"/>
+      <stop offset="0.18" stop-color="#ffdca8" stop-opacity="0.85"/>
+      <stop offset="0.55" stop-color="#ffc98a" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#ffc98a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="water" x1="0" y1="252" x2="0" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#efc39b"/>
+      <stop offset="1" stop-color="#e3ad86"/>
+    </linearGradient>
+    <linearGradient id="haze" x1="0" y1="150" x2="0" y2="252" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fbe7cf" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fbe0c2" stop-opacity="0.75"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="320" fill="url(#sky)"/>
+  <rect width="1200" height="320" fill="url(#sun)"/>
+  <circle cx="700" cy="214" r="26" fill="#fff1d6" opacity="0.9"/>
+
+  <!-- distant city -->
+  <g fill="#e8bf98" opacity="0.7">
+    <path d="M330 252v-34h18v-12h14v12h20v-26h16v26h12v-40h22v40h14v-18h26v18h18v-30h12v30h20v-22h24v22h30v-48h20v48h16v-28h26v28h28v-16h18v16h20v-36h16v36h22v-24h28v24h18v-44h22v44h24v-20h30v20h26v-30h16v30h40v-18h22v18h30v-26h18v26h40v-14h30v14z"/>
+  </g>
+  <g fill="#ddae86" opacity="0.75">
+    <path d="M220 252v-22h30v-16h22v16h18v-30h26v30h22v-12h26v12h14v-38h20v38h30v-20h18v20h30v-14h34v14h22v-28h24v28h20v-16h32v16h26v-42h18v42h28v-18h22v18h34v-24h18v24h30v-12h40v12h24v-32h22v32h38v-16h26v16h40v-26h18v26h48v-10h34v10z"/>
+  </g>
+  <rect y="150" width="1200" height="102" fill="url(#haze)"/>
+
+  <!-- Signature Bridge -->
+  <g transform="translate(-220 0)">
+  <g stroke="#b98762" stroke-linecap="round" fill="none" opacity="0.85">
+    <g stroke-width="1.1" opacity="0.8">
+      <path d="M884 92 L700 250"/><path d="M884 92 L728 250"/><path d="M884 92 L756 250"/>
+      <path d="M884 92 L784 250"/><path d="M884 92 L812 250"/><path d="M884 92 L840 250"/>
+      <path d="M884 92 L1060 250"/><path d="M884 92 L1030 250"/><path d="M884 92 L1000 250"/>
+      <path d="M884 92 L970 250"/><path d="M884 92 L940 250"/><path d="M884 92 L912 250"/>
+    </g>
+  </g>
+  <g fill="#a87655">
+    <path d="M846 250 L872 104 L880 60 L888 60 L892 104 L870 250 Z"/>
+    <path d="M902 250 L892 104 L888 60 L896 60 L904 104 L926 250 Z"/>
+    <rect x="870" y="98" width="32" height="7" rx="2"/>
+    <rect x="862" y="150" width="50" height="5" rx="2" opacity="0.9"/>
+  </g>
+  <rect x="560" y="248" width="860" height="6" fill="#a87655"/>
+  <g fill="#a87655" opacity="0.7">
+    <rect x="640" y="254" width="5" height="10"/><rect x="760" y="254" width="5" height="10"/>
+    <rect x="1000" y="254" width="5" height="10"/><rect x="1120" y="254" width="5" height="10"/>
+    <rect x="1240" y="254" width="5" height="10"/><rect x="1360" y="254" width="5" height="10"/>
+  </g>
+  </g>
+
+  <!-- river -->
+  <rect y="252" width="1200" height="68" fill="url(#water)"/>
+  <g stroke="#fff1d6" stroke-linecap="round" opacity="0.55">
+    <path d="M640 270h80" stroke-width="3"/><path d="M650 284h60" stroke-width="2.5"/>
+    <path d="M660 298h40" stroke-width="2"/><path d="M460 278h50" stroke-width="1.5" opacity="0.6"/>
+    <path d="M940 290h60" stroke-width="1.5" opacity="0.6"/>
+  </g>
+  <path d="M626 256 L650 256 L642 300 L634 300 Z" fill="#a87655" opacity="0.18"/>
+  <path d="M682 256 L706 256 L698 300 L690 300 Z" fill="#a87655" opacity="0.18"/>
+
+  <!-- near bank foliage -->
+  <g fill="#c99470" opacity="0.55">
+    <path d="M1080 252c6-22 22-30 36-24 8-16 30-16 40 0 14-6 30 4 30 24z"/>
+    <path d="M440 252c4-14 16-20 26-16 6-10 22-10 28 0 10-4 20 4 20 16z"/>
+  </g>
+</svg>
